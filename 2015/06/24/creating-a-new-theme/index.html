@@ -8,16 +8,16 @@
     <meta name="author" content="Sergii Pechenizkyi">
     
     
-    <link rel="icon" href="/www.plastiv.github.iofavicon.ico">
-    <link rel="apple-touch-icon" href="/www.plastiv.github.io/apple-touch-icon.png" />
-    <link rel="stylesheet" href="/www.plastiv.github.iocss/style.css">
-    <link rel="stylesheet" href="/www.plastiv.github.iocss/font-awesome.min.css">
-    <link rel="stylesheet" href="/www.plastiv.github.iocss/monokai.css">
-    <link rel="stylesheet" href="/www.plastiv.github.iofancybox/jquery.fancybox.css">
+    <link rel="icon" href="http://plastiv.github.iofavicon.ico">
+    <link rel="apple-touch-icon" href="http://plastiv.github.io/apple-touch-icon.png" />
+    <link rel="stylesheet" href="http://plastiv.github.iocss/style.css">
+    <link rel="stylesheet" href="http://plastiv.github.iocss/font-awesome.min.css">
+    <link rel="stylesheet" href="http://plastiv.github.iocss/monokai.css">
+    <link rel="stylesheet" href="http://plastiv.github.iofancybox/jquery.fancybox.css">
     <meta property="og:title" content="Creating a new theme" />
 <meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme. We&rsquo;ll start with creating a new site with a very basic template." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" />
+<meta property="og:url" content="http://plastiv.github.io/2015/06/24/creating-a-new-theme" />
 
 
 <meta property="og:updated_time" content="2015-06-24T13:50:46&#43;02:00"/>
@@ -62,11 +62,11 @@
 <header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
-      <a href="/www.plastiv.github.io" id="logo"><i class="logo" style="background-image: url('/www.plastiv.github.iocss/images/logo.png')"></i><span class="site-title">Personal blog</span></a>
+      <a href="http://plastiv.github.io" id="logo"><i class="logo" style="background-image: url('http://plastiv.github.iocss/images/logo.png')"></i><span class="site-title">Personal blog</span></a>
       <nav id="main-nav">
           
           
-          <a class="main-nav-link" href="www.plastiv.github.io/">Home</a>
+          <a class="main-nav-link" href="http://plastiv.github.io/">Home</a>
           
           
           
@@ -75,24 +75,24 @@
           
 
           
-          <a class="main-nav-link" href="/www.plastiv.github.io/2015/10/02/linked-post">Linked post</a>
+          <a class="main-nav-link" href="/2015/10/02/linked-post">Linked post</a>
           
 
           
           
           
           
-          <a class="main-nav-link" href="www.plastiv.github.io/tags/">Tags</a>
+          <a class="main-nav-link" href="http://plastiv.github.io/tags/">Tags</a>
           
           
           
-          <a class="main-nav-link" href="www.plastiv.github.io/categories/">Categories</a>
+          <a class="main-nav-link" href="http://plastiv.github.io/categories/">Categories</a>
           
           
       </nav>
         <nav id="sub-nav">
           <div class="profile" id="profile-nav">
-            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="/www.plastiv.github.iocss/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="http://plastiv.github.iocss/images/avatar.png"><i class="fa fa-caret-down"></i></a>
           </div>
         </nav>
         <div id="search-form-wrap">
@@ -100,7 +100,7 @@
               <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
               <button type="submit" class="search-form-submit">
               </button>
-              <input type="hidden" name="q" value="site:/www.plastiv.github.io">
+              <input type="hidden" name="q" value="site:http://plastiv.github.io">
          </form>
         </div>
     </div>
@@ -111,7 +111,7 @@
           <tr>
           
           
-          <td><a class="main-nav-link" href="www.plastiv.github.io/">Home</a></td>
+          <td><a class="main-nav-link" href="http://plastiv.github.io/">Home</a></td>
           
           
           
@@ -120,24 +120,24 @@
           
 
           
-          <td><a class="main-nav-link" href="/www.plastiv.github.io/2015/10/02/linked-post">Linked post</a></td>
+          <td><a class="main-nav-link" href="/2015/10/02/linked-post">Linked post</a></td>
           
 
           
           
           
           
-          <td><a class="main-nav-link" href="www.plastiv.github.io/tags/">Tags</a></td>
+          <td><a class="main-nav-link" href="http://plastiv.github.io/tags/">Tags</a></td>
           
           
           
-          <td><a class="main-nav-link" href="www.plastiv.github.io/categories/">Categories</a></td>
+          <td><a class="main-nav-link" href="http://plastiv.github.io/categories/">Categories</a></td>
           
           
           <td>
           <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
           <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
-          <input type="hidden" name="q" value="site:/www.plastiv.github.io">
+          <input type="hidden" name="q" value="site:http://plastiv.github.io">
           </form>
         </td>
       </tr>
@@ -152,7 +152,7 @@
     <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
-      <img id="avatar" src="/www.plastiv.github.iocss/images/avatar.png">
+      <img id="avatar" src="http://plastiv.github.iocss/images/avatar.png">
       <h2 id="name">Sergii Pechenizkyi</h2>
       <h3 id="title">Mobile developer</h3>
       <span id="location"><i class="fa fa-map-marker"></i>Berlin, Germany</span>
@@ -246,11 +246,11 @@
     <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
         <div class="article-inner">
             
-            <img src="/www.plastiv.github.iobanners/placeholder.png" class="article-banner">
+            <img src="http://plastiv.github.iobanners/placeholder.png" class="article-banner">
             
 
             <header class="article-header">
-    <a href="/www.plastiv.github.io/2015/06/24/creating-a-new-theme">
+    <a href="http://plastiv.github.io/2015/06/24/creating-a-new-theme">
     <h1 class="article-title" itemprop="name">
         Creating a new theme
     </h1>
@@ -269,7 +269,7 @@
         <div class="article-category">
             
             <i class="fa fa-folder"></i>
-            <a class="article-category-link" href="/www.plastiv.github.iocategories/lorem">Lorem</a>
+            <a class="article-category-link" href="http://plastiv.github.iocategories/lorem">Lorem</a>
             
         </div>
     </div>
@@ -1372,7 +1372,7 @@ $ vi themes/zafta/layouts/_default/single.html
 
             </div>
             <footer class="article-footer">
-    <a data-url="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" data-id="203afb8fdc074e80a6a8cddc7dc8ce70" class="article-share-link">
+    <a data-url="http://plastiv.github.io/2015/06/24/creating-a-new-theme" data-id="203afb8fdc074e80a6a8cddc7dc8ce70" class="article-share-link">
         Share
     </a>
     
@@ -1385,7 +1385,7 @@ $ vi themes/zafta/layouts/_default/single.html
     
 
     
-    <a href="/www.plastiv.github.io/2015/08/03/hugo-is-for-lovers" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="http://plastiv.github.io/2015/08/03/hugo-is-for-lovers" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Newer
       </strong>
@@ -1416,20 +1416,20 @@ $ vi themes/zafta/layouts/_default/single.html
             <li>
                 
                 <div class="item-thumbnail">
-                    <a href="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
-                        <span style="background-image:url(/www.plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
+                    <a href="http://plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
+                        <span style="background-image:url(http://plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
                     </a>
                 </div>
                 
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="/www.plastiv.github.iocategories/lorem">
+                        <a class="article-category-link" href="http://plastiv.github.iocategories/lorem">
                         Lorem
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="/www.plastiv.github.io/2015/10/10/introducing-icarus-and-its-features" class="title">Introducing Icarus and it&#39;s features</a></p>
+                    <p class="item-title"><a href="http://plastiv.github.io/2015/10/10/introducing-icarus-and-its-features" class="title">Introducing Icarus and it&#39;s features</a></p>
                     <p class="item-date">
                         <time datetime="2015-10-10 16:56:43 &#43;0200 &#43;0200" itemprop="datePublished">2015-10-10</time>
                     </p>
@@ -1439,20 +1439,20 @@ $ vi themes/zafta/layouts/_default/single.html
             <li>
                 
                 <div class="item-thumbnail">
-                    <a href="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
-                        <span style="background-image:url(/www.plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
+                    <a href="http://plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
+                        <span style="background-image:url(http://plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
                     </a>
                 </div>
                 
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="/www.plastiv.github.iocategories/lorem">
+                        <a class="article-category-link" href="http://plastiv.github.iocategories/lorem">
                         Lorem
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="/www.plastiv.github.io/2015/10/10/migrate-from-jekyll" class="title">Migrate from Jekyll</a></p>
+                    <p class="item-title"><a href="http://plastiv.github.io/2015/10/10/migrate-from-jekyll" class="title">Migrate from Jekyll</a></p>
                     <p class="item-date">
                         <time datetime="2015-10-10 13:07:31 &#43;0200 &#43;0200" itemprop="datePublished">2015-10-10</time>
                     </p>
@@ -1462,20 +1462,20 @@ $ vi themes/zafta/layouts/_default/single.html
             <li>
                 
                 <div class="item-thumbnail">
-                    <a href="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
-                        <span style="background-image:url(/www.plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
+                    <a href="http://plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
+                        <span style="background-image:url(http://plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
                     </a>
                 </div>
                 
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="/www.plastiv.github.iocategories/programming">
+                        <a class="article-category-link" href="http://plastiv.github.iocategories/programming">
                         programming
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="/www.plastiv.github.io/2015/10/02/linked-post" class="title">Linked post</a></p>
+                    <p class="item-title"><a href="http://plastiv.github.io/2015/10/02/linked-post" class="title">Linked post</a></p>
                     <p class="item-date">
                         <time datetime="2015-10-02 21:49:20 &#43;0200 &#43;0200" itemprop="datePublished">2015-10-02</time>
                     </p>
@@ -1485,20 +1485,20 @@ $ vi themes/zafta/layouts/_default/single.html
             <li>
                 
                 <div class="item-thumbnail">
-                    <a href="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
-                        <span style="background-image:url(/www.plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
+                    <a href="http://plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
+                        <span style="background-image:url(http://plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
                     </a>
                 </div>
                 
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="/www.plastiv.github.iocategories/ipsum">
+                        <a class="article-category-link" href="http://plastiv.github.iocategories/ipsum">
                         Ipsum
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="/www.plastiv.github.io/2015/09/17/go-is-for-lovers" class="title">Go is for lovers</a></p>
+                    <p class="item-title"><a href="http://plastiv.github.io/2015/09/17/go-is-for-lovers" class="title">Go is for lovers</a></p>
                     <p class="item-date">
                         <time datetime="2015-09-17 13:47:08 &#43;0200 &#43;0200" itemprop="datePublished">2015-09-17</time>
                     </p>
@@ -1508,20 +1508,20 @@ $ vi themes/zafta/layouts/_default/single.html
             <li>
                 
                 <div class="item-thumbnail">
-                    <a href="/www.plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
-                        <span style="background-image:url(/www.plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
+                    <a href="http://plastiv.github.io/2015/06/24/creating-a-new-theme" class="thumbnail">
+                        <span style="background-image:url(http://plastiv.github.iobanners/placeholder.png)" alt="Creating a new theme" class="thumbnail-image"></span>
                     </a>
                 </div>
                 
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="/www.plastiv.github.iocategories/lorem">
+                        <a class="article-category-link" href="http://plastiv.github.iocategories/lorem">
                         Lorem
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="/www.plastiv.github.io/2015/08/03/hugo-is-for-lovers" class="title">Hugo is for lovers</a></p>
+                    <p class="item-title"><a href="http://plastiv.github.io/2015/08/03/hugo-is-for-lovers" class="title">Hugo is for lovers</a></p>
                     <p class="item-date">
                         <time datetime="2015-08-03 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-08-03</time>
                     </p>
@@ -1541,21 +1541,21 @@ $ vi themes/zafta/layouts/_default/single.html
         <ul class="category-list">
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.io/categories/ipsum">
+                <a class="category-list-link" href="http://plastiv.github.io/categories/ipsum">
                     ipsum
                 </a>
                 <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.io/categories/lorem">
+                <a class="category-list-link" href="http://plastiv.github.io/categories/lorem">
                     lorem
                 </a>
                 <span class="category-list-count">4</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.io/categories/programming">
+                <a class="category-list-link" href="http://plastiv.github.io/categories/programming">
                     programming
                 </a>
                 <span class="category-list-count">1</span>
@@ -1577,35 +1577,35 @@ $ vi themes/zafta/layouts/_default/single.html
         <ul class="category-list">
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.iotags/golang">
+                <a class="category-list-link" href="http://plastiv.github.iotags/golang">
                     golang
                 </a>
                 <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.iotags/hugo">
+                <a class="category-list-link" href="http://plastiv.github.iotags/hugo">
                     hugo
                 </a>
                 <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.iotags/programming">
+                <a class="category-list-link" href="http://plastiv.github.iotags/programming">
                     programming
                 </a>
                 <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.iotags/static-sites">
+                <a class="category-list-link" href="http://plastiv.github.iotags/static-sites">
                     static-sites
                 </a>
                 <span class="category-list-count">1</span>
             </li>
             
             <li class="category-list-item">
-                <a class="category-list-link" href="/www.plastiv.github.iotags/theme">
+                <a class="category-list-link" href="http://plastiv.github.iotags/theme">
                     theme
                 </a>
                 <span class="category-list-count">2</span>
@@ -1625,15 +1625,15 @@ $ vi themes/zafta/layouts/_default/single.html
     </h3>
     <div class="widget tagcloud">
         
-        <a href="/www.plastiv.github.iotags/golang" style="font-size: 12px;">golang</a>
+        <a href="http://plastiv.github.iotags/golang" style="font-size: 12px;">golang</a>
         
-        <a href="/www.plastiv.github.iotags/hugo" style="font-size: 12px;">hugo</a>
+        <a href="http://plastiv.github.iotags/hugo" style="font-size: 12px;">hugo</a>
         
-        <a href="/www.plastiv.github.iotags/programming" style="font-size: 12px;">programming</a>
+        <a href="http://plastiv.github.iotags/programming" style="font-size: 12px;">programming</a>
         
-        <a href="/www.plastiv.github.iotags/static-sites" style="font-size: 12px;">static-sites</a>
+        <a href="http://plastiv.github.iotags/static-sites" style="font-size: 12px;">static-sites</a>
         
-        <a href="/www.plastiv.github.iotags/theme" style="font-size: 12px;">theme</a>
+        <a href="http://plastiv.github.iotags/theme" style="font-size: 12px;">theme</a>
         
     </div>
 </div>
@@ -1668,8 +1668,8 @@ ga('send', 'pageview');
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="/www.plastiv.github.iofancybox/jquery.fancybox.pack.js"></script>
-<script src="/www.plastiv.github.iojs/script.js"></script>
+<script src="http://plastiv.github.iofancybox/jquery.fancybox.pack.js"></script>
+<script src="http://plastiv.github.iojs/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
